@@ -1,5 +1,5 @@
 var snake;
-
+             
 var context;
 var screenWidth;
 var screenHeight;
@@ -15,13 +15,13 @@ function gameInitialize(){
   screenWidth = window.innerWidth;
   screenHeight = window.innerHeight;
   
-  canvas.width = screen.Width;
-  canvas.height = screen.Height; 
+  canvas.Width = screen.Width;
+  canvas.Height = screen.Height; 
 }
 function gameLoop(){
     
 }
 function gameDraw(){
-  context.fillStyle = 'rgb(6, 89, 161)';
+  context.fillStyle = 'rgb(8, 22,63 )';
   context.fillRect(0, 0, screenWidth, screenHeight);
 }
