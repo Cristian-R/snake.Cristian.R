@@ -35,7 +35,7 @@ function gameDraw(){
 function snakeInitialize(){
     snake = [];
     snakeLength = 5;
-    snakeSize = 30;
+    snakeSize = 35;
     
     for(var index = snakeLength - 1; index >= 0; index--){
        snake.push( {
